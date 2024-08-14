@@ -111,7 +111,7 @@ export default function TCKimlikForm() {
             )}
 
             <footer className="text-sm text-gray-600 mt-4 text-center">
-                <p>Copyright © 2024 | Mert Can Akdoğan </p>
+                <p> Mert Can Akdoğan </p>
                 <br /><hr /><br />
                 <p>
                     <a href="https://x.com/mertcakdogan" target="_blank" rel="noopener noreferrer" className='p-2'>
