@@ -26,7 +26,7 @@ export async function POST(request: Request) {
       },
     })
 
-    return new Promise((resolve) => {
+    return new Promise<NextResponse>((resolve) => {
       parseString(response.data, (err, result) => {
         if (err) {
           resolve(NextResponse.json({ error: 'XML parsing error' }, { status: 500 }))
