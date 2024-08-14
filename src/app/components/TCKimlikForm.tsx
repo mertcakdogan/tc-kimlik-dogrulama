@@ -3,7 +3,6 @@
 import { useState, FormEvent, ChangeEvent } from 'react'
 import XIcon from '@mui/icons-material/X';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Image from 'next/image';
 
 interface FormData {
     TCKimlikNo: string
@@ -49,7 +48,7 @@ export default function TCKimlikForm() {
                     {/* logo */}
                     <div className="flex justify-center">
                         <a href="https://www.nvi.gov.tr/">
-                            <Image src="https://www.nvi.gov.tr/kurumlar/nvi.gov.tr/Tasarim/nvi_logo_3.png" alt="TC Kimlik No Doğrulama" className="rounded-lg p-1 " style={{ backgroundColor: "#13183E" }} />
+                            <img src="https://www.nvi.gov.tr/kurumlar/nvi.gov.tr/Tasarim/nvi_logo_3.png" alt="TC Kimlik No Doğrulama" className="rounded-lg p-1 " style={{ backgroundColor: "#13183E" }} />
                         </a>
                     </div>
                     <div className="relative">
