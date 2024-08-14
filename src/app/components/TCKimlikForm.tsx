@@ -106,7 +106,7 @@ export default function TCKimlikForm() {
             </form>
             {result !== null && (
                 <div className={`mt-4 p-4 rounded-md ${result ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
-                    {result ? 'TC Kimlik No geçerli.' : 'TC Kimlik No geçersiz.'}
+                    {result ? 'Kimlik numarası geçerli' : 'Kimlik numarası geçersiz.'}
                 </div>
             )}
 
